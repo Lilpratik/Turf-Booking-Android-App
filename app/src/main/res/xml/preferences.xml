@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Language Preference -->
+    <ListPreference
+        android:key="language"
+        android:title="App Language"
+        android:summary="Select your preferred language"
+        android:entries="@array/language_entries"
+        android:entryValues="@array/language_values"
+        android:defaultValue="en" />
+
+    <!-- Dark Mode Preference -->
+    <SwitchPreferenceCompat
+        android:key="dark_mode"
+        android:title="Dark Mode"
+        android:summary="Enable dark mode for the app" />
+
+</PreferenceScreen>

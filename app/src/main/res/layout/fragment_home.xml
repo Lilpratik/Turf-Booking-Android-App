@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F8FA"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- SearchView for search bar -->
+        <SearchView
+            android:id="@+id/searchView"
+            style="@android:style/Widget.Material.SearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Search for turfs"
+            app:iconifiedByDefault="false" />
+
+        <!-- Text view for "Nearby Turfs" -->
+        <TextView
+            android:id="@+id/textViewNearbyTurfs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Nearby Turfs"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- RecyclerView for nearby turfs -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewNearbyTurfs"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <!-- Text view for "All Turfs" -->
+        <TextView
+            android:id="@+id/textViewAllTurfs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="All Turfs"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- RecyclerView for all turfs -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewAllTurfs"
+            android:layout_width="match_parent"
+            android:layout_height="467dp"
+            android:visibility="visible"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" /> <!-- Initially set to gone -->
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

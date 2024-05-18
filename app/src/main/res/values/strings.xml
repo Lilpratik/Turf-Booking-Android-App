@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name" translatable="false">Turf Booking</string>
+    <string name="or" translatable="false">OR</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="password_hint" translatable="false">Password</string>
+    <string name="email_hint" translatable="false">Email</string>
+    <string name="app_logo_desc" translatable="false"></string>
+    <!-- Login Activity -->
+    <string name="login_title" translatable="false">Login</string>
+    <string name="login_hint_username" translatable="false">Username</string>
+    <string name="login_hint_password" translatable="false">Password</string>
+    <string name="login_button" translatable="false">Login</string>
+    <string name="login_register_text" translatable="false">Dont have an account? Register here</string>
+
+    <!-- Dashboard Activity -->
+    <string name="title_activity_dashboard" translatable="false">Dashboard</string>
+
+    <!-- TurfCard Activity -->
+    <string name="title_activity_turf_card" translatable="false">Turf Details</string>
+    <!-- res/values/strings.xml -->
+
+
+        <!-- HomeActivity -->
+        <string name="home_activity_title">Home</string>
+
+        <!-- LoginActivity -->
+        <string name="login_activity_title">Login</string>
+
+        <!-- RegisterActivity -->
+        <string name="register_activity_title">Register</string>
+
+        <!-- MainActivity -->
+        <!-- No specific string for MainActivity -->
+
+        <!-- DashboardActivity -->
+        <string name="dashboard_activity_title">Dashboard</string>
+
+        <!-- TurfCardActivity -->
+        <string name="turf_card_activity_title">Turf Card</string>
+    <string name="book_button_label">Book now</string>
+    <string name="turf_detail_activity_title">Turf</string>
+
+        <!-- Add more strings as needed -->
+        <string name="dashboard_welcome_message">Welcome to the Turf Booking App!</string>
+        <string name="dashboard_explore_message">Explore available turfs and book your slots.</string>
+    <string name="default_web_client_id" />
+    <string name="admin_login_activity_title">Admin Login</string>
+    <string name="turf_image">\nTurf Image here</string>
+    <string name="default_turf_name">Turf Name</string>
+    <string name="default_turf_location">Turf Location</string>
+    <string name="default_turf_latitude">Turf Latitude</string>
+    <string name="default_turf_longitude">Turf Longitude</string>
+
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Hindi</item>
+        <!-- Add more languages as needed -->
+    </string-array>
+    <string-array name="language_values">
+        <item>en</item>
+        <item>hi</item>
+        <!-- Match language values with locale strings -->
+    </string-array>
+
+
+    <!-- Add more string resources as needed -->
+
+
+
+
+</resources>

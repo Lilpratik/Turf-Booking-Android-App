@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_admin.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AdminActivity">
+
+    <!-- Name EditText -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Location EditText -->
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:layout_below="@id/editTextName"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Price EditText -->
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editTextLocation"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Amenities EditText -->
+    <EditText
+        android:id="@+id/editTextAmenities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amenities"
+        android:layout_below="@id/editTextPrice"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Image Upload Button -->
+    <Button
+        android:id="@+id/buttonUploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:layout_below="@id/editTextAmenities"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/buttonUploadImage"/>
+
+</RelativeLayout>
+

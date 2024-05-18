@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "205102620990",
+    "firebase_url": "https://turf-booking-system-af2b7-default-rtdb.firebaseio.com",
+    "project_id": "turf-booking-system-af2b7",
+    "storage_bucket": "turf-booking-system-af2b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205102620990:android:7170af483af9fae4f6cc6f",
+        "android_client_info": {
+          "package_name": "com.pratik.turfbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205102620990-jkg24km855lelbpfft2tva6tu5hrghgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pratik.turfbooking",
+            "certificate_hash": "7941e11d6e26327d2e0db57390a397e14e112e9a"
+          }
+        },
+        {
+          "client_id": "205102620990-6plkkn8fjdgdpojlf23ugcncv726osgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx2g2Lq7EzTFNqJED0PZjTbbdHhM_W8UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205102620990-6plkkn8fjdgdpojlf23ugcncv726osgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

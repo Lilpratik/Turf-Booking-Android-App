@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Other attributes -->
+        <!-- Customize other theme attributes here -->
+    </style>
+
+    <!-- Theme without ActionBar for LoginActivity -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Custom style for TurfCard item -->
+    <style name="TurfCardStyle">
+        <!-- Define styles for TurfCard items here -->
+        <item name="android:background">@drawable/turf_card_background</item>
+        <!-- Add other styles as needed -->
+    </style>
+
+    <!-- Night mode theme -->
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize night mode theme attributes here -->
+        <!-- For example, you can change the primary color to a darker shade -->
+        <item name="colorPrimary">@color/nightColorPrimary</item>
+        <!-- You can define other night mode-specific attributes here -->
+    </style>
+
+</resources>

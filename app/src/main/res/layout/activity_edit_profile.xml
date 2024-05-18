@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:paddingLeft="16dp"
+    android:paddingTop="200dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/editProfileImageView"
+        android:layout_width="395dp"
+        android:layout_height="173dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="337dp"
+        android:src="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/editProfileNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editProfilePhoneEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Enter your name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editProfilePhoneEditText"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editProfileEmailEditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Enter your phone number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editProfileEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editProfilePasswordEditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:hint="Enter your email" />
+
+    <EditText
+        android:id="@+id/editProfilePasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editProfileAgainPasswordEditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editProfileAgainPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editProfileBirthDateEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editProfileBirthDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editProfileGenderEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Enter your birth date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editProfileGenderEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editProfileSaveButton"
+        android:layout_marginTop="16dp"
+        android:hint="Enter your gender"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/editProfileSaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:text="Save Changes" />
+
+</RelativeLayout>
